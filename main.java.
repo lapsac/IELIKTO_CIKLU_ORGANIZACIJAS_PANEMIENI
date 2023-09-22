@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class L11_221rdb389 {
+public class main {
     public static void main(String[] args) {
         int rows = 10;
         int column = 10;
         int[][] a = new int[rows][column];
         Scanner input = new Scanner(System.in);
-        System.out.println("Lauma Gailite 2. kurss 221RDB389");
+        System.out.println("hello");
         System.out.println("Izpildīt uzdevuma numuru (1 vai 2): ");
         int uzdevums = input.nextInt();
         if (uzdevums == 1) {
